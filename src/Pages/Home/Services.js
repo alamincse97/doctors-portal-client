@@ -9,19 +9,19 @@ const Services = () => {
         {
             _id: 1,
             name: 'Fluoride Treatment',
-            describtion: '',
+            description: '',
             img: fluoride
         },
         {
-            _id: 1,
+            _id: 2,
             name: 'Cavity Filling',
-            describtion: '',
+            description: '',
             img: cavity
         },
         {
-            _id: 1,
+            _id: 3,
             name: 'Teeth Whitening',
-            describtion: '',
+            description: '',
             img: whitening
         },
     ];

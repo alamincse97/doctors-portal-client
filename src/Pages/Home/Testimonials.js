@@ -1,10 +1,9 @@
 import React from 'react';
 import quote from '../../assets/icons/quote.svg';
-import People1 from '../../assets/images/people1.png';
-import People2 from '../../assets/images/people2.png';
-import People3 from '../../assets/images/people3.png';
+import people1 from '../../assets/images/people1.png'
+import people2 from '../../assets/images/people2.png'
+import people3 from '../../assets/images/people3.png'
 import Review from './Review';
-
 const Testimonials = () => {
     const reviews = [
         {
@@ -12,21 +11,21 @@ const Testimonials = () => {
             name: 'Winson Herry',
             review: '',
             location: 'california',
-            img: People1
+            img: people1
         },
         {
             _id: 2,
             name: 'Winson Herry',
             review: '',
             location: 'california',
-            img: People2
+            img: people2
         },
         {
             _id: 3,
             name: 'Winson Herry',
             review: '',
             location: 'california',
-            img: People3
+            img: people3
         },
     ];
     return (
@@ -42,7 +41,8 @@ const Testimonials = () => {
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                 {
-                    reviews.map(review => <Review key={review._id}
+                    reviews.map(review => <Review
+                        key={review._id}
                         review={review}
                     ></Review>)
                 }

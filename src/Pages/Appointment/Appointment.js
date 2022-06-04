@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Footer from "../Home/Footer";
+import Footer from "../Home/Banner";
 import AppointmentBanner from "./AppointmentBanner";
 import AvailableAppointments from "./AvailableAppointments";
 
